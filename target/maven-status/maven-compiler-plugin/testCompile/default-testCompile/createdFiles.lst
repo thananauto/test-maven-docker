@@ -1,0 +1,5 @@
+com\qa\setup\Base.class
+com\qa\tests\PutTests.class
+com\qa\tests\DeleteTests.class
+com\qa\tests\PostTests.class
+com\qa\tests\GetTests.class

@@ -1,0 +1,35 @@
+version: '2.4'
+services:
+  grafana:
+    image: grafana/grafana-enterprise
+    container_name: grafana
+    ports:
+      - 3000:3000
+    restart: unless-stopped
+    volumes:
+      - $PWD/grafana/data:/var/lib/grafana
+    networks:
+      - metrics
+
+  gateway:
+    image: prom/pushgateway
+    container_name: push-gateway
+    ports:
+      - 9091:9091
+    networks:
+      - metrics
+
+  prometheus:
+    image: prom/prometheus
+    container_name: prometheus
+    ports:
+      - 9000:9000
+    volumes:
+      - $PWD/config/prometheus.yml:/etc/prometheus/prometheus.yml
+    networks:
+      - metrics
+
+networks:
+  metrics:
+    external: true
+

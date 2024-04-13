@@ -1,0 +1,14 @@
+version: '3.0'
+
+services:
+  gorest-api:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: restassured
+    container_name: gorest_api
+    volumes:
+      - $PWD/output:/app/target/result
+
+
+

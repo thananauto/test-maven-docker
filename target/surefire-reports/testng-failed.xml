@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="6" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [rest assured Practice Suite]" parallel="methods">
+  <listeners>
+    <listener class-name="com.qa.listners.ReportListner"/>
+  </listeners>
+  <test thread-count="6" verbose="0" name="Test Basics 1(failed)" parallel="methods">
+    <classes>
+      <class name="com.qa.tests.PutTests">
+        <methods>
+          <include name="putUpdateUserPojo"/>
+          <include name="tearDownSuite"/>
+          <include name="afterMethods"/>
+          <include name="beforeMethod"/>
+          <include name="setUpSuite"/>
+        </methods>
+      </class> <!-- com.qa.tests.PutTests -->
+      <class name="com.qa.tests.GetTests">
+        <methods>
+          <include name="tearDownSuite"/>
+          <include name="afterMethods"/>
+          <include name="getUser"/>
+          <include name="beforeMethod"/>
+          <include name="getIndividualCommentsForUser" invocation-numbers="0"/>
+          <include name="setUpSuite"/>
+        </methods>
+      </class> <!-- com.qa.tests.GetTests -->
+      <class name="com.qa.tests.DeleteTests">
+        <methods>
+          <include name="deleteUser"/>
+          <include name="tearDownSuite"/>
+          <include name="afterMethods"/>
+          <include name="beforeMethod"/>
+          <include name="setUpSuite"/>
+        </methods>
+      </class> <!-- com.qa.tests.DeleteTests -->
+      <class name="com.qa.tests.PostTests">
+        <methods>
+          <include name="tearDownSuite"/>
+          <include name="afterMethods"/>
+          <include name="beforeMethod"/>
+          <include name="postCreateUserWithString"/>
+          <include name="setUpSuite"/>
+        </methods>
+      </class> <!-- com.qa.tests.PostTests -->
+    </classes>
+  </test> <!-- Test Basics 1(failed) -->
+</suite> <!-- Failed suite [rest assured Practice Suite] -->

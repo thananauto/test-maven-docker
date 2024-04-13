@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="10.762" tests="12" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Projects\java_workspace\restassured\target\test-classes;C:\Projects\java_workspace\restassured\target\classes;C:\Users\thananjayan.r\.m2\repository\com\aventstack\extentreports\5.0.1\extentreports-5.0.1.jar;C:\Users\thananjayan.r\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\thananjayan.r\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\thananjayan.r\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\thananjayan.r\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\thananjayan.r\.m2\repository\org\json\json\20220320\json-20220320.jar;C:\Users\thananjayan.r\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\thananjayan.r\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\thananjayan.r\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\thananjayan.r\.m2\repository\com\github\javafaker\javafaker\0.15\javafaker-0.15.jar;C:\Users\thananjayan.r\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\thananjayan.r\.m2\repository\org\yaml\snakeyaml\1.20\snakeyaml-1.20-android.jar;C:\Users\thananjayan.r\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\thananjayan.r\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\thananjayan.r\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\thananjayan.r\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\thananjayan.r\.m2\repository\org\aeonbits\owner\owner\1.0.12\owner-1.0.12.jar;C:\Users\thananjayan.r\.m2\repository\org\projectlombok\lombok\1.18.10\lombok-1.18.10.jar;C:\Users\thananjayan.r\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\thananjayan.r\.m2\repository\io\rest-assured\json-schema-validator\5.1.1\json-schema-validator-5.1.1.jar;C:\Users\thananjayan.r\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\thananjayan.r\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\thananjayan.r\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\thananjayan.r\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\thananjayan.r\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\thananjayan.r\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\thananjayan.r\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\thananjayan.r\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\thananjayan.r\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\thananjayan.r\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\thananjayan.r\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\thananjayan.r\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\thananjayan.r\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\thananjayan.r\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\thananjayan.r\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\thananjayan.r\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\thananjayan.r\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\thananjayan.r\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\thananjayan.r\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\thananjayan.r\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\thananjayan.r\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\thananjayan.r\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\thananjayan.r\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\thananjayan.r\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\thananjayan.r\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\thananjayan.r\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\thananjayan.r\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\thananjayan.r\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\thananjayan.r\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\thananjayan.r\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\thananjayan.r\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\thananjayan.r\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\thananjayan.r\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\thananjayan.r\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\thananjayan.r\.m2\repository\net\bytebuddy\byte-buddy\1.12.21\byte-buddy-1.12.21.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\thananjayan.r\AppData\Local\Temp\surefire8550721869860211583\surefirebooter-20230721180816450_3.jar C:\Users\thananjayan.r\AppData\Local\Temp\surefire8550721869860211583 2023-07-21T18-08-10_544-jvmRun1 surefire-20230721180816450_1tmp surefire_0-20230721180816450_2tmp"/>
+    <property name="surefire.test.class.path" value="C:\Projects\java_workspace\restassured\target\test-classes;C:\Projects\java_workspace\restassured\target\classes;C:\Users\thananjayan.r\.m2\repository\com\aventstack\extentreports\5.0.1\extentreports-5.0.1.jar;C:\Users\thananjayan.r\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\thananjayan.r\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\thananjayan.r\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\thananjayan.r\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\thananjayan.r\.m2\repository\org\json\json\20220320\json-20220320.jar;C:\Users\thananjayan.r\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\thananjayan.r\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\thananjayan.r\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\thananjayan.r\.m2\repository\com\github\javafaker\javafaker\0.15\javafaker-0.15.jar;C:\Users\thananjayan.r\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\thananjayan.r\.m2\repository\org\yaml\snakeyaml\1.20\snakeyaml-1.20-android.jar;C:\Users\thananjayan.r\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\thananjayan.r\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\thananjayan.r\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\thananjayan.r\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\thananjayan.r\.m2\repository\org\aeonbits\owner\owner\1.0.12\owner-1.0.12.jar;C:\Users\thananjayan.r\.m2\repository\org\projectlombok\lombok\1.18.10\lombok-1.18.10.jar;C:\Users\thananjayan.r\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\thananjayan.r\.m2\repository\io\rest-assured\json-schema-validator\5.1.1\json-schema-validator-5.1.1.jar;C:\Users\thananjayan.r\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\thananjayan.r\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\thananjayan.r\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\thananjayan.r\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\thananjayan.r\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\thananjayan.r\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\thananjayan.r\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\thananjayan.r\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\thananjayan.r\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\thananjayan.r\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\thananjayan.r\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\thananjayan.r\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\thananjayan.r\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\thananjayan.r\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\thananjayan.r\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\thananjayan.r\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\thananjayan.r\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\thananjayan.r\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\thananjayan.r\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\thananjayan.r\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\thananjayan.r\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\thananjayan.r\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\thananjayan.r\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\thananjayan.r\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\thananjayan.r\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\thananjayan.r\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\thananjayan.r\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\thananjayan.r\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\thananjayan.r\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\thananjayan.r\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\thananjayan.r\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\thananjayan.r\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\thananjayan.r\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\thananjayan.r\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\thananjayan.r\.m2\repository\net\bytebuddy\byte-buddy\1.12.21\byte-buddy-1.12.21.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\thananjayan.r"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="basedir" value="C:\Projects\java_workspace\restassured"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\thananjayan.r\AppData\Local\Temp\surefire8550721869860211583\surefirebooter-20230721180816450_3.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.name" value="thananjayan.r"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\thananjayan.r\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\THANAN~1.R\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="C:\Projects\java_workspace\restassured"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Tools\apache-maven\apache-maven-3.8.4\bin;C:\Program Files\Oracle\VirtualBox;C:\Program Files\nodejs\;C:\Users\thananjayan.r\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\thananjayan.r\AppData\Local\Programs\Python\Python310\;C:\Users\thananjayan.r\AppData\Local\Microsoft\WindowsApps;C:\Users\thananjayan.r\AppData\Roaming\npm;C:\Ti\tools\ide\bin;C:\Ti\tools;C:\Ti\platforms;C:\Users\thananjayan.r\AppData\Local\Android\Sdk\tools;C:\Users\thananjayan.r\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Tools\apache-maven\apache-maven-3.8.4\bin;C:\Program Files\Oracle\VirtualBox;C:\Program Files\nodejs\\bin;C:\Users\thananjayan.r\AppData\Local\Programs\Git\cmd;C:\Tools\msys64\mingw64\bin;C:\Tools\k6;C:\Tools\allure-2.22.1\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="deleteUser" classname="com.qa.tests.DeleteTests" time="5.532">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;204&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <204> but was <404>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$11.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:101)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
+	at com.qa.tests.DeleteTests.deleteUser(DeleteTests.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></failure>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://gorest.co.in/public/v2/users/3778659
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=3778659
+Headers:		Authorization=[ BLACKLISTED ]
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://gorest.co.in/public/v2/posts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=[ BLACKLISTED ]
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Date: Fri, 21 Jul 2023 12:38:25 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: no-cache
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 88
+x-ratelimit-reset: 2
+x-request-id: c2b15207-edb7-4d29-a400-b7503b6fe477
+x-runtime: 0.044198
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FJS4fftrQ2EldC%2FVXPyLKEG0tkqEhnWQ9dzCfOyvBbvPTaxNhJtFd%2BU9GmbCw2spM%2F0xNl6wzuQaU8ngghtqRmbA%2BjpZWWFsOjMGXtQcIliGb%2FcD7pqgDUsnGzV4Qx0%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7ea380344ed71e5c-FRA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "message": "Resource not found"
+}
+]]></system-out>
+    <system-err><![CDATA[Jul 21, 2023 6:08:20 PM freemarker.log._JULLoggerFactory$JULLogger error
+SEVERE: Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> c  [in template "codeblock.json.ftl" at line 5, column 86]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${c}  [in template "codeblock.json.ftl" at line 5, column 84]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:481)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:401)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:370)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:370)
+	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+	at freemarker.core.Environment.visit(Environment.java:334)
+	at freemarker.core.Environment.process(Environment.java:313)
+	at freemarker.template.Template.process(Template.java:383)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39)
+	at com.aventstack.extentreports.markuputils.CodeBlock.getMarkup(CodeBlock.java:59)
+	at com.aventstack.extentreports.ExtentTest.log(ExtentTest.java:453)
+	at com.qa.reports.ExtentLogger.logRequest(ExtentLogger.java:34)
+	at com.qa.tests.GetTests.getComments(GetTests.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> c  [in template "codeblock.json.ftl" at line 5, column 86]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${c}  [in template "codeblock.json.ftl" at line 5, column 84]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:481)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:401)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:370)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:370)
+Jul 21, 2023 6:08:20 PM freemarker.log._JULLoggerFactory$JULLogger error
+SEVERE: Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> c  [in template "codeblock.json.ftl" at line 5, column 86]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${c}  [in template "codeblock.json.ftl" at line 5, column 84]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:481)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:401)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:370)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:370)
+	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+	at freemarker.core.Environment.visit(Environment.java:334)
+	at freemarker.core.Environment.process(Environment.java:313)
+	at freemarker.template.Template.process(Template.java:383)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39)
+	at com.aventstack.extentreports.markuputils.CodeBlock.getMarkup(CodeBlock.java:59)
+	at com.aventstack.extentreports.ExtentTest.log(ExtentTest.java:453)
+	at com.qa.reports.ExtentLogger.logRequest(ExtentLogger.java:34)
+	at com.qa.tests.GetTests.getPostsWithQueryParameter(GetTests.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+	at freemarker.core.Environment.visit(Environment.java:334)
+	at freemarker.core.Environment.process(Environment.java:313)
+	at freemarker.template.Template.process(Template.java:383)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39)
+	at com.aventstack.extentreports.markuputils.CodeBlock.getMarkup(CodeBlock.java:59)
+	at com.aventstack.extentreports.ExtentTest.log(ExtentTest.java:453)
+	at com.qa.reports.ExtentLogger.logRequest(ExtentLogger.java:34)
+	at com.qa.tests.GetTests.getComments(GetTests.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> c  [in template "codeblock.json.ftl" at line 5, column 86]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${c}  [in template "codeblock.json.ftl" at line 5, column 84]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:481)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:401)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:370)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:370)
+	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+	at freemarker.core.Environment.visit(Environment.java:334)
+	at freemarker.core.Environment.process(Environment.java:313)
+	at freemarker.template.Template.process(Template.java:383)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39)
+Jul 21, 2023 6:08:20 PM freemarker.log._JULLoggerFactory$JULLogger error
+SEVERE: Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> c  [in template "codeblock.json.ftl" at line 5, column 86]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${c}  [in template "codeblock.json.ftl" at line 5, column 84]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:481)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:401)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:370)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:370)
+	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+	at freemarker.core.Environment.visit(Environment.java:334)
+	at freemarker.core.Environment.process(Environment.java:313)
+	at freemarker.template.Template.process(Template.java:383)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39)
+	at com.aventstack.extentreports.markuputils.CodeBlock.getMarkup(CodeBlock.java:59)
+	at com.aventstack.extentreports.ExtentTest.log(ExtentTest.java:453)
+	at com.qa.reports.ExtentLogger.logRequest(ExtentLogger.java:34)
+	at com.qa.tests.GetTests.getIndividualCommentsForUser(GetTests.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+	at com.aventstack.extentreports.markuputils.CodeBlock.getMarkup(CodeBlock.java:59)
+	at com.aventstack.extentreports.ExtentTest.log(ExtentTest.java:453)
+	at com.qa.reports.ExtentLogger.logRequest(ExtentLogger.java:34)
+	at com.qa.tests.GetTests.getPostsWithQueryParameter(GetTests.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> c  [in template "codeblock.json.ftl" at line 5, column 86]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${c}  [in template "codeblock.json.ftl" at line 5, column 84]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:481)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:401)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:370)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:370)
+	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+	at freemarker.core.Environment.visit(Environment.java:334)
+	at freemarker.core.Environment.process(Environment.java:313)
+	at freemarker.template.Template.process(Template.java:383)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39)
+	at com.aventstack.extentreports.markuputils.CodeBlock.getMarkup(CodeBlock.java:59)
+	at com.aventstack.extentreports.ExtentTest.log(ExtentTest.java:453)
+	at com.qa.reports.ExtentLogger.logRequest(ExtentLogger.java:34)
+	at com.qa.tests.GetTests.getIndividualCommentsForUser(GetTests.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+Jul 21, 2023 6:08:20 PM freemarker.log._JULLoggerFactory$JULLogger error
+SEVERE: Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> c  [in template "codeblock.json.ftl" at line 5, column 86]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${c}  [in template "codeblock.json.ftl" at line 5, column 84]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:481)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:401)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:370)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:370)
+	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+	at freemarker.core.Environment.visit(Environment.java:334)
+	at freemarker.core.Environment.process(Environment.java:313)
+	at freemarker.template.Template.process(Template.java:383)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39)
+	at com.aventstack.extentreports.markuputils.CodeBlock.getMarkup(CodeBlock.java:59)
+	at com.aventstack.extentreports.ExtentTest.log(ExtentTest.java:453)
+	at com.qa.reports.ExtentLogger.logRequest(ExtentLogger.java:34)
+	at com.qa.tests.DeleteTests.deleteUser(DeleteTests.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> c  [in template "codeblock.json.ftl" at line 5, column 86]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${c}  [in template "codeblock.json.ftl" at line 5, column 84]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:481)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:401)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:370)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:370)
+	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+	at freemarker.core.Environment.visit(Environment.java:334)
+	at freemarker.core.Environment.process(Environment.java:313)
+	at freemarker.template.Template.process(Template.java:383)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52)
+	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39)
+	at com.aventstack.extentreports.markuputils.CodeBlock.getMarkup(CodeBlock.java:59)
+	at com.aventstack.extentreports.ExtentTest.log(ExtentTest.java:453)
+	at com.qa.reports.ExtentLogger.logRequest(ExtentLogger.java:34)
+	at com.qa.tests.DeleteTests.deleteUser(DeleteTests.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-err>
+  </testcase>
+  <testcase name="getIndividualCommentsForUser[public void com.qa.tests.GetTests.getIndividualCommentsForUser(java.lang.reflect.Method)](1)" classname="com.qa.tests.GetTests" time="0.055">
+    <failure message="&#10;Expecting actual not to be empty" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expecting actual not to be empty
+	at com.qa.tests.GetTests.getIndividualCommentsForUser(GetTests.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></failure>
+  </testcase>
+  <testcase name="getComments" classname="com.qa.tests.GetTests" time="0.224"/>
+  <testcase name="getPostsWithBasePath" classname="com.qa.tests.GetTests" time="0.0"/>
+  <testcase name="getUser" classname="com.qa.tests.GetTests" time="0.002">
+    <failure message="&#10;Expecting&#10;  com.qa.pojo.User@72f62e7b&#10;to have a property or a field named &quot;id&quot; with value&#10;  &quot;3708305&quot;&#10;but value was:&#10;  &quot;3778659&quot;&#10;(static and synthetic fields are ignored)" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expecting
+  com.qa.pojo.User@72f62e7b
+to have a property or a field named "id" with value
+  "3708305"
+but value was:
+  "3778659"
+(static and synthetic fields are ignored)
+	at com.qa.tests.GetTests.getUser(GetTests.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></failure>
+  </testcase>
+  <testcase name="getPostsWithQueryParameter" classname="com.qa.tests.GetTests" time="0.012"/>
+  <testcase name="getUsers[public void com.qa.tests.GetTests.getUsers(java.lang.reflect.Method)](1)" classname="com.qa.tests.GetTests" time="1.547">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=[ BLACKLISTED ]
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Labor",
+    "email": "LaborFixer@gmail.com",
+    "gender": "female",
+    "status": "active"
+}
+Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=[ BLACKLISTED ]
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "gender": "male",
+    "name": "Judson Ullrich",
+    "email": "hkhr58@gmail.com",
+    "status": "active"
+}
+Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=[ BLACKLISTED ]
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Amos Crist",
+    "email": "clzu36@gmail.com",
+    "gender": "male",
+    "status": "active"
+}
+Request method:	PUT
+Request URI:	https://gorest.co.in/public/v2/users/3776023
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=3776023
+Headers:		Authorization=[ BLACKLISTED ]
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Rae Schowalter Sr.",
+    "email": "pwtu10@gmail.com",
+    "gender": "Female",
+    "status": "Inactive"
+}
+Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=[ BLACKLISTED ]
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Candace Haag",
+    "email": "menj61@gmail.com",
+    "gender": "male",
+    "status": "active"
+}
+[
+    {
+        "id": 3810902,
+        "name": "Rudra Agarwal",
+        "email": "agarwal_rudra@wilderman.example",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 3810901,
+        "name": "Malati Kakkar",
+        "email": "kakkar_malati@marks-koelpin.test",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 3810900,
+        "name": "Prayag Ganaka",
+        "email": "prayag_ganaka@roob-ortiz.example",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 3810898,
+        "name": "Dhatri Jha",
+        "email": "jha_dhatri@tremblay.example",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 3810897,
+        "name": "Ekdant Jain",
+        "email": "jain_ekdant@hagenes-stehr.test",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 3810896,
+        "name": "Atmanand Menon",
+        "email": "atmanand_menon@heller.example",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 3810895,
+        "name": "Menka Saini DC",
+        "email": "dc_saini_menka@cartwright.example",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 3810894,
+        "name": "Amarnath Khanna",
+        "email": "khanna_amarnath@harvey.example",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 3810893,
+        "name": "Dharmaketu Asan",
+        "email": "dharmaketu_asan@kutch.example",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 3810892,
+        "name": "Aayushman Sharma",
+        "email": "sharma_aayushman@runolfsson-sanford.test",
+        "gender": "male",
+        "status": "inactive"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="postCreateUserWithString" classname="com.qa.tests.PostTests" time="1.654">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;422&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <422>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$11.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:101)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
+	at com.qa.tests.PostTests.postCreateUserWithString(PostTests.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 422 Unprocessable Entity
+Date: Fri, 21 Jul 2023 12:38:27 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: no-cache
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 87
+x-ratelimit-reset: 3
+x-request-id: d0bf0421-e5b9-4204-ae16-69f0b51215b2
+x-runtime: 0.036244
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=OjrQI9iu7cbNgjduiZdfua1sZKDKBmcvumIGNrF3bpYaW7C8j53tUax1kju9qS97oFTLiN5fAiCmSJBcpqke%2BlajSMLxZ92VU5jqO7JiOSiSvheULlgxUTafvCYgEwg%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7ea380415b403a88-FRA
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "field": "email",
+        "message": "has already been taken"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="postCreateUserJsonObject" classname="com.qa.tests.PostTests" time="2.185">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Date: Fri, 21 Jul 2023 12:38:27 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"e0fce756bd26bd21ae6d679bb54339d4"
+location: https://gorest.co.in/public/v2/users/3821246
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 86
+x-ratelimit-reset: 4
+x-request-id: f6a400c7-4fb8-4287-97d5-c2baf24c9483
+x-runtime: 0.055543
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wEhhn8wyFOX%2FIh%2FK0MQdieLFShewD5OTYapwv90SElpRIGiWz6ANnnE05vAmY9vLnsQ6mET2yCc%2FjNk1Ecm%2BKR7n1qCoQJd%2B1DgbK4siOG77TD4HRjT9pS7QEeSzdrk%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7ea38044bdd8bbe9-FRA
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 3821246,
+    "name": "Judson Ullrich",
+    "email": "hkhr58@gmail.com",
+    "gender": "male",
+    "status": "active"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="postCreateUserWithMap" classname="com.qa.tests.PostTests" time="2.273">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Date: Fri, 21 Jul 2023 12:38:27 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"3bce1cd5a07624330edfedc71fd65180"
+location: https://gorest.co.in/public/v2/users/3821247
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 85
+x-ratelimit-reset: 4
+x-request-id: d1c060ff-2814-4f47-83ad-a8fe77b800d4
+x-runtime: 0.056175
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JkdzMqi72HaDxDrUar9DSH7rEHxKJwM8Iz5OqDytffaqms8pwL7kYrrO4Se%2FhdgDqZzCx8LG7fGyFNjnEf2CJchFKJCRjSr63cIdQ80hkdixHgUBpQLhK8AP2BtZ4RM%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7ea380471a249060-FRA
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 3821247,
+    "name": "Candace Haag",
+    "email": "menj61@gmail.com",
+    "gender": "male",
+    "status": "active"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="postCreateUserPojo" classname="com.qa.tests.PostTests" time="2.382">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Date: Fri, 21 Jul 2023 12:38:27 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"d95f8f0a4ba340d75b006b76c7043ee1"
+location: https://gorest.co.in/public/v2/users/3821248
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 84
+x-ratelimit-reset: 5
+x-request-id: e68c51cb-a891-40a4-a0c2-35078f63df57
+x-runtime: 0.048004
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6IT%2F2MZF2zUP24GcGSBzeV%2FiRwPUcEj%2BVnRtip0U519cyVQuBzsP%2BfSrW24w6XwMaptoYqIAip%2BRvVVqWQctMo33q2JZkrfkZ6pOsoad5vbmq97OmT4%2BTCO531Etu%2Fk%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7ea38045f81d37fc-FRA
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 3821248,
+    "name": "Amos Crist",
+    "email": "clzu36@gmail.com",
+    "gender": "male",
+    "status": "active"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="putUpdateUserPojo" classname="com.qa.tests.PutTests" time="2.261">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$11.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:101)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
+	at com.qa.tests.PutTests.putUpdateUserPojo(PutTests.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 404 Not Found
+Date: Fri, 21 Jul 2023 12:38:27 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: no-cache
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 85
+x-ratelimit-reset: 4
+x-request-id: 19b3bd46-3e14-4ad0-bd61-f1a2ec5f6e3a
+x-runtime: 0.029012
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=HaRc5ZXsAbYRegjriZEeHewwlur9DJ56Jft8eUJdNA6WCdxAyH0hAM7Y7VBGv%2Fyh1xhC1LJz9JYK%2BV%2FHWAa%2FOOhAsV5PjtdCS6u6VYdiTRGW5uK01jIri6iCq%2B%2BzToo%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7ea380470f6d906a-FRA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "message": "Resource not found"
+}
+]]></system-out>
+  </testcase>
+</testsuite>

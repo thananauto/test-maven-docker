@@ -1,0 +1,2103 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@83e4e8776725a49f9e738b19d1e718e7404d6c19/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">API Extent Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Apr 1, 2024 05:51:41 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">GET</a><a class="dropdown-item" href="#">DELETE</a><a class="dropdown-item" href="#">PUT</a><a class="dropdown-item" href="#">POST</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag="GET"
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">getComments</p>
+            <p class="text-sm"><span>05:51:41 AM</span> / <span>5.333 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=4</span></div>
+<h5 class="test-status text-pass">getComments</h5>
+<span class='badge badge-success'>04.01.2024 05:51:41</span>
+<span class='badge badge-danger'>04.01.2024 05:51:46</span>
+<span class='badge badge-default'>5.333 secs</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> GET</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:51:46 AM</td>
+        <td>
+          getComments passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="7">Request JSON</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:51:42 AM</td>
+        <td>
+          
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="15">Response JSON</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:51:45 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-7'></div>
+ <script>
+  function jsonTreeCreate7() { 
+   document.getElementById('code-block-json-7').innerHTML = JSONTree.create([
+    {
+        "id": 90955,
+        "post_id": 116313,
+        "name": "Shantanu Nambeesan",
+        "email": "nambeesan_shantanu@nolan.test",
+        "body": "Optio non eos."
+    },
+    {
+        "id": 90954,
+        "post_id": 116313,
+        "name": "Balgopal Khan",
+        "email": "balgopal_khan@lowe.example",
+        "body": "Ad quo ipsa."
+    },
+    {
+        "id": 90953,
+        "post_id": 116312,
+        "name": "Lila Varrier",
+        "email": "varrier_lila@schinner.example",
+        "body": "Quas est voluptas."
+    },
+    {
+        "id": 90952,
+        "post_id": 116311,
+        "name": "Shresth Khanna Jr.",
+        "email": "jr_khanna_shresth@stokes-hills.example",
+        "body": "Ut repellat quis. Et quo aliquam. Mollitia recusandae rerum."
+    },
+    {
+        "id": 90951,
+        "post_id": 116309,
+        "name": "Suman Bharadwaj",
+        "email": "bharadwaj_suman@champlin.example",
+        "body": "Debitis aut est. Pariatur labore blanditiis."
+    },
+    {
+        "id": 90950,
+        "post_id": 116309,
+        "name": "Rep. Daevika Ahluwalia",
+        "email": "rep_daevika_ahluwalia@walsh.example",
+        "body": "Corporis unde quis. Quia fugit sapiente. Nihil molestiae dolorem. Harum at quo."
+    },
+    {
+        "id": 90949,
+        "post_id": 116308,
+        "name": "Rep. Lai Marar",
+        "email": "rep_lai_marar@white.example",
+        "body": "Et recusandae rem. Nobis dolore sed. Earum ut velit. Dignissimos assumenda est."
+    },
+    {
+        "id": 90948,
+        "post_id": 116308,
+        "name": "Amodini Kapoor",
+        "email": "amodini_kapoor@farrell.test",
+        "body": "Aspernatur maiores ipsam. Et et omnis. Dicta minus ex. Dolor vitae voluptas."
+    },
+    {
+        "id": 90947,
+        "post_id": 116307,
+        "name": "Kannan Prajapat V",
+        "email": "prajapat_v_kannan@koepp.test",
+        "body": "Assumenda inventore neque. Consequatur at ut. Qui temporibus voluptatem. Id iure aut."
+    },
+    {
+        "id": 90946,
+        "post_id": 116307,
+        "name": "Purushottam Chaturvedi",
+        "email": "chaturvedi_purushottam@sawayn.test",
+        "body": "Itaque inventore earum."
+    }
+]); 
+  }
+  jsonTreeCreate7();
+ </script>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag="GET"
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">getPostsWithBasePath</p>
+            <p class="text-sm"><span>05:51:41 AM</span> / <span>5.319 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=1</span></div>
+<h5 class="test-status text-pass">getPostsWithBasePath</h5>
+<span class='badge badge-success'>04.01.2024 05:51:41</span>
+<span class='badge badge-danger'>04.01.2024 05:51:46</span>
+<span class='badge badge-default'>5.319 secs</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> GET</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:51:46 AM</td>
+        <td>
+          getPostsWithBasePath passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="14">Response JSON</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:51:45 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-6'></div>
+ <script>
+  function jsonTreeCreate6() { 
+   document.getElementById('code-block-json-6').innerHTML = JSONTree.create([
+    {
+        "id": 116313,
+        "user_id": 6815722,
+        "title": "Angulus turpe thorax culpa maxime viriliter baiulus nesciunt.",
+        "body": "Comprehendo convoco cubo. Nulla vomito ventito. Eius utrum utilis. Et vel a. Cometes omnis facilis. Comparo impedit suffoco. Bestia at voluptate. Copiose vitiosus consuasor. Decerno minus sperno. Congregatio degenero tantum. Cresco accusator tabella. Tergo adversus volaticus. Solus auctus doloremque. Coerceo patior bellicus."
+    },
+    {
+        "id": 116312,
+        "user_id": 6815722,
+        "title": "Cresco speciosus necessitatibus curtus quam aetas cilicium.",
+        "body": "Soluta esse thymbra. Cedo pauci ullus. Curvus alveus bos. Deleo cilicium vergo. Curiositas nihil triginta. Concido taceo numquam. Cicuta super vita. Nesciunt assumenda testimonium. Clamo acerbitas rerum. Dignissimos caelum torqueo. Vulgo urbanus cerno. Comitatus curriculum deprimo. Vesco aegrotatio peior. Deripio at territo. Suscipit viriliter quo. Carbo culpa quo. Similique totus aliqua."
+    },
+    {
+        "id": 116311,
+        "user_id": 6815721,
+        "title": "Tempus stultus thesaurus theca delectatio civitas fugit adulatio atque.",
+        "body": "Et acervus unus. Dens stabilis error. Omnis copiose umquam. Fugiat sodalitas constans. Uterque utique adeo. Aptus clam aperio. Triumphus adeo utroque. Vigilo in amitto. Thymbra cattus ratione. Virga quia complectus. Tendo sumptus cupiditas. Vergo catena fugit. Sint volaticus sono. Compello curvus vinitor."
+    },
+    {
+        "id": 116310,
+        "user_id": 6815720,
+        "title": "Infit vulgivagus aut vivo aveho debitis pax eligendi.",
+        "body": "Debitis id celebrer. Beatus certe velit. Caritas pauper absconditus. Veniam consuasor sint. Ubi adfectus tersus. Doloremque coerceo conicio. Terga ultra cunabula. Cinis vaco defungo. Reiciendis dignissimos corrupti. Sumptus torrens cogo. Demoror civis deleniti. Sonitus solutio cohaero. Caput coniuratio eum. Cognatus vel tergeo."
+    },
+    {
+        "id": 116309,
+        "user_id": 6815720,
+        "title": "Vilitas consectetur voluptas compono demulceo.",
+        "body": "Aut super quis. Strues voluptatem sint. Caritas doloribus tendo. Adultus corrigo desparatus. Vultuosus canonicus autem. Auctor terror cunae. Vetus deputo cubitum. Conscendo impedit assumenda. Conventus alias spargo. Degusto talus optio. Terga ratione spargo. Dapifer utilis bestia."
+    },
+    {
+        "id": 116308,
+        "user_id": 6815719,
+        "title": "Turbo damnatio sopor volo clam temporibus.",
+        "body": "Id truculenter undique. Est vulgo est. Tondeo somnus nihil. Tutamen viscus commemoro. Aestus vilis tantum. Torqueo valde creta. Antiquus cinis solutio. Auris usus ipsam. Sortitus vir sulum. Volo abduco nesciunt. Venustas laborum delectatio. Cura coniecto virga. Cavus conor canis. Adeptio consequatur accusamus. Cohibeo speciosus vorago. Delectus territo aer. Volubilis tenetur causa."
+    },
+    {
+        "id": 116307,
+        "user_id": 6815719,
+        "title": "Certo corona cicuta videlicet volva desidero maxime eum.",
+        "body": "Tabula vestigium mollitia. Cubo amiculum sapiente. Tepidus contego paulatim. Thalassinus agnosco custodia. Impedit adsum nihil. Quod fuga universe. Aegrotatio tumultus dignissimos. Voro ventito clibanus. Creptio et apostolus. Patria sit acquiro. Delego voveo advenio."
+    },
+    {
+        "id": 116306,
+        "user_id": 6815718,
+        "title": "Quia texo auxilium tenax testimonium apostolus.",
+        "body": "Et nesciunt vinum. Tepidus creo caterva. Annus aeger autem. Conatus vindico ocer. Crux delego natus. Constans tergiversatio tempore. Ut distinctio speciosus. Nobis suspendo defessus. Solium viduata nemo. Ait cubicularis velociter. Solvo bardus vulariter. Eligendi artificiose utpote. Abstergo vinculum qui. Turpe vehemens substantia. Vorago textor summisse. Abstergo capillus aeternus."
+    },
+    {
+        "id": 116305,
+        "user_id": 6815718,
+        "title": "Auctus deleniti combibo illo tutis conscendo.",
+        "body": "Saepe quibusdam pecunia. Curo aeger atavus. Tyrannus tandem pax. Deserunt suggero vinum. Blandior adeo tardus. Adsum acervus comes. Cimentarius beatae adduco. Vomito vesper velit. Cito anser statim. Aliquam corrupti artificiose. Similique sequi corporis. Conservo claudeo venustas. Utique neque conservo. Libero circumvenio dedico."
+    },
+    {
+        "id": 116304,
+        "user_id": 6815717,
+        "title": "Dolores deduco necessitatibus acquiro nemo.",
+        "body": "Truculenter bellum quia. Est tenuis suasoria. Adflicto soleo crur. Impedit optio temptatio. Ater conatus vomito. Vilicus vivo paulatim. Benevolentia voluptas truculenter. Aggredior recusandae autem. Totus custodia tardus. Ventus distinctio adipiscor. Delibero ubi nisi. Debilito ex maxime. Ter coruscus exercitationem. Occaecati terebro balbus. Alias apostolus adsum. Crux comprehendo tyrannus. Adicio candidus turpis."
+    }
+]); 
+  }
+  jsonTreeCreate6();
+ </script>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="5"
+          author=""
+          tag="DELETE"
+          device="">
+          <div class="status-avatar fail-bg">
+            <i class="fa fa-times text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">deleteUser</p>
+            <p class="text-sm"><span>05:51:41 AM</span> / <span>4.257 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=5</span></div>
+<h5 class="test-status text-fail">deleteUser</h5>
+<span class='badge badge-success'>04.01.2024 05:51:41</span>
+<span class='badge badge-danger'>04.01.2024 05:51:45</span>
+<span class='badge badge-default'>4.257 secs</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> DELETE</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:51:45 AM</td>
+        <td>
+          <span class='badge white-text red'>1 expectation failed.
+Expected status code <204> but was <404>.
+</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:51:45 AM</td>
+        <td>
+          <textarea readonly class="code-block">java.lang.AssertionError: 1 expectation failed.
+Expected status code <204> but was <404>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$8.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:101)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
+	at com.qa.tests.DeleteTests.deleteUser(DeleteTests.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</textarea>
+          
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="9">Request JSON</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:51:42 AM</td>
+        <td>
+          
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="13">Response JSON</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:51:45 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-5'></div>
+ <script>
+  function jsonTreeCreate5() { 
+   document.getElementById('code-block-json-5').innerHTML = JSONTree.create({
+    "message": "Resource not found"
+}); 
+  }
+  jsonTreeCreate5();
+ </script>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag="GET"
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">getPostsWithQueryParameter</p>
+            <p class="text-sm"><span>05:51:41 AM</span> / <span>5.362 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=6</span></div>
+<h5 class="test-status text-pass">getPostsWithQueryParameter</h5>
+<span class='badge badge-success'>04.01.2024 05:51:41</span>
+<span class='badge badge-danger'>04.01.2024 05:51:46</span>
+<span class='badge badge-default'>5.362 secs</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> GET</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:51:46 AM</td>
+        <td>
+          getPostsWithQueryParameter passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="10">Request JSON</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:51:42 AM</td>
+        <td>
+          
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="16">Response JSON</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:51:45 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-8'></div>
+ <script>
+  function jsonTreeCreate8() { 
+   document.getElementById('code-block-json-8').innerHTML = JSONTree.create([
+    {
+        "id": 116313,
+        "user_id": 6815722,
+        "title": "Angulus turpe thorax culpa maxime viriliter baiulus nesciunt.",
+        "body": "Comprehendo convoco cubo. Nulla vomito ventito. Eius utrum utilis. Et vel a. Cometes omnis facilis. Comparo impedit suffoco. Bestia at voluptate. Copiose vitiosus consuasor. Decerno minus sperno. Congregatio degenero tantum. Cresco accusator tabella. Tergo adversus volaticus. Solus auctus doloremque. Coerceo patior bellicus."
+    },
+    {
+        "id": 116312,
+        "user_id": 6815722,
+        "title": "Cresco speciosus necessitatibus curtus quam aetas cilicium.",
+        "body": "Soluta esse thymbra. Cedo pauci ullus. Curvus alveus bos. Deleo cilicium vergo. Curiositas nihil triginta. Concido taceo numquam. Cicuta super vita. Nesciunt assumenda testimonium. Clamo acerbitas rerum. Dignissimos caelum torqueo. Vulgo urbanus cerno. Comitatus curriculum deprimo. Vesco aegrotatio peior. Deripio at territo. Suscipit viriliter quo. Carbo culpa quo. Similique totus aliqua."
+    },
+    {
+        "id": 116311,
+        "user_id": 6815721,
+        "title": "Tempus stultus thesaurus theca delectatio civitas fugit adulatio atque.",
+        "body": "Et acervus unus. Dens stabilis error. Omnis copiose umquam. Fugiat sodalitas constans. Uterque utique adeo. Aptus clam aperio. Triumphus adeo utroque. Vigilo in amitto. Thymbra cattus ratione. Virga quia complectus. Tendo sumptus cupiditas. Vergo catena fugit. Sint volaticus sono. Compello curvus vinitor."
+    },
+    {
+        "id": 116310,
+        "user_id": 6815720,
+        "title": "Infit vulgivagus aut vivo aveho debitis pax eligendi.",
+        "body": "Debitis id celebrer. Beatus certe velit. Caritas pauper absconditus. Veniam consuasor sint. Ubi adfectus tersus. Doloremque coerceo conicio. Terga ultra cunabula. Cinis vaco defungo. Reiciendis dignissimos corrupti. Sumptus torrens cogo. Demoror civis deleniti. Sonitus solutio cohaero. Caput coniuratio eum. Cognatus vel tergeo."
+    },
+    {
+        "id": 116309,
+        "user_id": 6815720,
+        "title": "Vilitas consectetur voluptas compono demulceo.",
+        "body": "Aut super quis. Strues voluptatem sint. Caritas doloribus tendo. Adultus corrigo desparatus. Vultuosus canonicus autem. Auctor terror cunae. Vetus deputo cubitum. Conscendo impedit assumenda. Conventus alias spargo. Degusto talus optio. Terga ratione spargo. Dapifer utilis bestia."
+    },
+    {
+        "id": 116308,
+        "user_id": 6815719,
+        "title": "Turbo damnatio sopor volo clam temporibus.",
+        "body": "Id truculenter undique. Est vulgo est. Tondeo somnus nihil. Tutamen viscus commemoro. Aestus vilis tantum. Torqueo valde creta. Antiquus cinis solutio. Auris usus ipsam. Sortitus vir sulum. Volo abduco nesciunt. Venustas laborum delectatio. Cura coniecto virga. Cavus conor canis. Adeptio consequatur accusamus. Cohibeo speciosus vorago. Delectus territo aer. Volubilis tenetur causa."
+    },
+    {
+        "id": 116307,
+        "user_id": 6815719,
+        "title": "Certo corona cicuta videlicet volva desidero maxime eum.",
+        "body": "Tabula vestigium mollitia. Cubo amiculum sapiente. Tepidus contego paulatim. Thalassinus agnosco custodia. Impedit adsum nihil. Quod fuga universe. Aegrotatio tumultus dignissimos. Voro ventito clibanus. Creptio et apostolus. Patria sit acquiro. Delego voveo advenio."
+    },
+    {
+        "id": 116306,
+        "user_id": 6815718,
+        "title": "Quia texo auxilium tenax testimonium apostolus.",
+        "body": "Et nesciunt vinum. Tepidus creo caterva. Annus aeger autem. Conatus vindico ocer. Crux delego natus. Constans tergiversatio tempore. Ut distinctio speciosus. Nobis suspendo defessus. Solium viduata nemo. Ait cubicularis velociter. Solvo bardus vulariter. Eligendi artificiose utpote. Abstergo vinculum qui. Turpe vehemens substantia. Vorago textor summisse. Abstergo capillus aeternus."
+    },
+    {
+        "id": 116305,
+        "user_id": 6815718,
+        "title": "Auctus deleniti combibo illo tutis conscendo.",
+        "body": "Saepe quibusdam pecunia. Curo aeger atavus. Tyrannus tandem pax. Deserunt suggero vinum. Blandior adeo tardus. Adsum acervus comes. Cimentarius beatae adduco. Vomito vesper velit. Cito anser statim. Aliquam corrupti artificiose. Similique sequi corporis. Conservo claudeo venustas. Utique neque conservo. Libero circumvenio dedico."
+    },
+    {
+        "id": 116304,
+        "user_id": 6815717,
+        "title": "Dolores deduco necessitatibus acquiro nemo.",
+        "body": "Truculenter bellum quia. Est tenuis suasoria. Adflicto soleo crur. Impedit optio temptatio. Ater conatus vomito. Vilicus vivo paulatim. Benevolentia voluptas truculenter. Aggredior recusandae autem. Totus custodia tardus. Ventus distinctio adipiscor. Delibero ubi nisi. Debilito ex maxime. Ter coruscus exercitationem. Occaecati terebro balbus. Alias apostolus adsum. Crux comprehendo tyrannus. Adicio candidus turpis."
+    },
+    {
+        "id": 116303,
+        "user_id": 6815716,
+        "title": "Abutor cursus vultuosus qui volutabrum auctus deorsum somnus.",
+        "body": "Venia casso cerno. Contego cernuus curiositas. Defaeco reprehenderit abundans. Magnam custodia cogito. Teres colo eveniet. Labore timor et. Statua tener adhuc. Articulus bellicus alioqui. Consequatur contego tabgo. Rem videlicet ventus. Adfectus solium solvo. Ambulo abeo timor. Sublime decet advenio. Arcus soluta apto. Aut carbo coruscus. Harum acceptus cattus. Venio vis pecus. Temeritas absconditus careo."
+    },
+    {
+        "id": 116302,
+        "user_id": 6815716,
+        "title": "Pariatur aufero accedo sunt solus tubineus velum.",
+        "body": "Hic quasi ater. Aggero accipio vinum. Cultura calamitas amplexus. Contra sit appono. Video dolor subseco. Aegre urbs harum. Numquam qui deinde. Rem despirmatio explicabo. Centum ante cultura. Officia abstergo et. Qui caste amplus. Nemo demitto libero. Speciosus quidem suus. Contra venio ipsum. Convoco consequuntur aperio. Voluptas corporis est. Pariatur cunctatio unde."
+    },
+    {
+        "id": 116301,
+        "user_id": 6815715,
+        "title": "At depono thermae corporis uxor confugo ullus contigo illum.",
+        "body": "Allatus combibo adiuvo. Colloco qui modi. Utique quisquam curis. Usus sufficio quo. Utor conturbo cognatus. Acsi solus vitae. Ter sollers atrox. Triduana beatae defendo. Error vapulus accusamus. Desipio perferendis qui. Explicabo et blandior. In caste agnitio. Tabella suggero rem. Clibanus volaticus corona. Admiratio succurro constans. Vitium et cicuta."
+    },
+    {
+        "id": 116300,
+        "user_id": 6815714,
+        "title": "Tener arbitro spiritus advenio claro aut.",
+        "body": "Defaeco caelum damno. Vestigium torrens balbus. Amiculum solio tamen. Custodia sit hic. Sortitus officia beneficium. Dapifer claudeo fuga. Beneficium itaque deorsum. Amor corona audacia. Sulum acies voluptatem. Comburo rerum pecco. Id abeo blandior. Adeo ultio utor. Vespillo testimonium tero. Coniecto rerum amplitudo. Aut patria caput."
+    },
+    {
+        "id": 116299,
+        "user_id": 6815714,
+        "title": "Ambitus et benevolentia et suggero adultus mollitia adimpleo desparatus.",
+        "body": "Tempore ventus unus. Sum ut cupressus. Amplexus coniuratio absorbeo. Timor est tabesco. Aro advoco aspicio. Animi alter dedecor. Totus sulum auctor. Qui despecto pecto. Deleo beatus cum. Velit minus tam. Tutis depereo sol. Quia sopor armo. Conatus tres valde. Tabesco suffragium atque. Ars quibusdam sapiente. Terga abutor aliqua. Veniam absens speciosus."
+    },
+    {
+        "id": 116291,
+        "user_id": 6815705,
+        "title": "Dolores earum suasoria capitulus voluptatem impedit.",
+        "body": "Speculum damnatio thalassinus. Stultus calco deporto. Absque totidem cruentus. Uter voro tibi. Celer constans adeo. Tricesimus vapulus qui. Vereor ara creber. Aqua thymbra omnis. Abstergo carcer vomer. Nulla casso creta. Theologus vero despirmatio. Textilis vesica vaco. Ustilo thymbra aequitas. Et uredo alius. Caries alius eos. Adficio tamen adduco. Laboriosam dolorem ex. Cogo absorbeo volaticus."
+    },
+    {
+        "id": 116290,
+        "user_id": 6815705,
+        "title": "Temperantia damnatio comparo caterva tardus inflammatio voluptatem.",
+        "body": "Culpa cognatus quia. Comparo umquam vomer. Cras succedo venia. Alioqui cultellus decretum. Et adsum omnis. Statua ante turpis. Creptio ipsum omnis. Ut degero asperiores. Culpo rerum aer. Caries adulatio stipes. Acquiro apparatus subvenio. Vomito cogo caute. Basium calcar dolores."
+    },
+    {
+        "id": 116288,
+        "user_id": 6815703,
+        "title": "Atque circumvenio creber repellat ambitus.",
+        "body": "Urbanus conatus delinquo. Viscus terra id. Sopor carcer angustus. Conspergo ciminatio quasi. Summopere comburo balbus. Crux deripio turpis. Tibi accendo avaritia. Soleo tracto decretum. Cognatus demo voluptates. Quas copia bos. Suscipio decimus accipio. Valde ab aetas. Defungo vereor cunae."
+    },
+    {
+        "id": 116284,
+        "user_id": 6815468,
+        "title": "Territo vetus deduco cedo cunctatio.",
+        "body": "Tergeo ut suggero. Qui textilis demoror. Aperiam cunabula caput. Tutamen cohibeo demo. Cupressus aut allatus. Ullam dolor decumbo. Vero appono auctor. Temperantia tener ulterius. Strues calamitas complectus. Tracto adulatio bibo."
+    },
+    {
+        "id": 116283,
+        "user_id": 6815468,
+        "title": "Volup statim magnam absum subnecto copia amita tendo.",
+        "body": "Quaerat bonus speculum. Conturbo tutamen tardus. Enim cilicium theatrum. Pecto inventore vis. Socius ventus quis. Umbra socius traho. Tersus necessitatibus aequitas. Vilis odit clam. Odit corrumpo curto. Coepi vinum sunt. Id turbo tenetur. Derelinquo vulpes delectatio. Conspergo dedecor officiis. Carmen itaque turpis. Atavus delego tracto. Ait stella spero. Crux accusantium voluptatem."
+    }
+]); 
+  }
+  jsonTreeCreate8();
+ </script>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="2"
+          author=""
+          tag="GET"
+          device="">
+          <div class="status-avatar fail-bg">
+            <i class="fa fa-times text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">getIndividualCommentsForUser</p>
+            <p class="text-sm"><span>05:51:41 AM</span> / <span>4.766 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=2</span></div>
+<h5 class="test-status text-fail">getIndividualCommentsForUser</h5>
+<span class='badge badge-success'>04.01.2024 05:51:41</span>
+<span class='badge badge-danger'>04.01.2024 05:51:46</span>
+<span class='badge badge-default'>4.766 secs</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> GET</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:51:46 AM</td>
+        <td>
+          <span class='badge white-text red'>
+Expecting actual not to be empty</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:51:46 AM</td>
+        <td>
+          <textarea readonly class="code-block">java.lang.AssertionError: 
+Expecting actual not to be empty
+	at com.qa.tests.GetTests.getIndividualCommentsForUser(GetTests.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</textarea>
+          
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="8">Request JSON</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:51:42 AM</td>
+        <td>
+          
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="12">Response JSON</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:51:45 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-4'></div>
+ <script>
+  function jsonTreeCreate4() { 
+   document.getElementById('code-block-json-4').innerHTML = JSONTree.create([
+    
+]); 
+  }
+  jsonTreeCreate4();
+ </script>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="3"
+          author=""
+          tag="GET"
+          device="">
+          <div class="status-avatar fail-bg">
+            <i class="fa fa-times text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">getUser</p>
+            <p class="text-sm"><span>05:51:41 AM</span> / <span>4.241 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=3</span></div>
+<h5 class="test-status text-fail">getUser</h5>
+<span class='badge badge-success'>04.01.2024 05:51:41</span>
+<span class='badge badge-danger'>04.01.2024 05:51:45</span>
+<span class='badge badge-default'>4.241 secs</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> GET</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:51:45 AM</td>
+        <td>
+          <span class='badge white-text red'>1 expectation failed.
+Expected status code <200> but was <404>.
+</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:51:45 AM</td>
+        <td>
+          <textarea readonly class="code-block">java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$5.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at com.qa.tests.GetTests.getUser(GetTests.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</textarea>
+          
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag="GET"
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">getUsers</p>
+            <p class="text-sm"><span>05:51:45 AM</span> / <span>1.876 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=11</span></div>
+<h5 class="test-status text-pass">getUsers</h5>
+<span class='badge badge-success'>04.01.2024 05:51:45</span>
+<span class='badge badge-danger'>04.01.2024 05:51:47</span>
+<span class='badge badge-default'>1.876 secs</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> GET</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:51:47 AM</td>
+        <td>
+          getUsers passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="22">Response JSON</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:51:47 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-9'></div>
+ <script>
+  function jsonTreeCreate9() { 
+   document.getElementById('code-block-json-9').innerHTML = JSONTree.create([
+    {
+        "id": 6816130,
+        "name": "Sabrina Moen",
+        "email": "ohla00@gmail.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 6816129,
+        "name": "Lucienne Langworth",
+        "email": "kyby49@gmail.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 6816128,
+        "name": "Mr. Crystel Aufderhar",
+        "email": "uwhm98@gmail.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 6816121,
+        "name": "Adelia Purdy",
+        "email": "suwr23@gmail.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 6816120,
+        "name": "Norwood Gottlieb I",
+        "email": "jfqi02@gmail.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 6816119,
+        "name": "Dahlia Jacobs",
+        "email": "mgsh34@gmail.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 6816117,
+        "name": "Chris McLaughlin",
+        "email": "wqvm53@gmail.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 6816116,
+        "name": "Joshua Murray",
+        "email": "pjaq74@gmail.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 6816115,
+        "name": "Oren Spencer",
+        "email": "fnxp03@gmail.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 6816113,
+        "name": "Al Bradtke",
+        "email": "xxja67@gmail.com",
+        "gender": "male",
+        "status": "active"
+    }
+]); 
+  }
+  jsonTreeCreate9();
+ </script>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag="POST"
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">postCreateUserJsonObject</p>
+            <p class="text-sm"><span>05:51:45 AM</span> / <span>2.733 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=17</span></div>
+<h5 class="test-status text-pass">postCreateUserJsonObject</h5>
+<span class='badge badge-success'>04.01.2024 05:51:45</span>
+<span class='badge badge-danger'>04.01.2024 05:51:48</span>
+<span class='badge badge-default'>2.733 secs</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> POST</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:51:48 AM</td>
+        <td>
+          postCreateUserJsonObject passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="23">Response JSON</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:51:48 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-10'></div>
+ <script>
+  function jsonTreeCreate10() { 
+   document.getElementById('code-block-json-10').innerHTML = JSONTree.create({
+    "id": 6816134,
+    "name": "Asa Feeney",
+    "email": "bgxs83@gmail.com",
+    "gender": "male",
+    "status": "active"
+}); 
+  }
+  jsonTreeCreate10();
+ </script>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author=""
+          tag="POST"
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">postCreateUserPojo</p>
+            <p class="text-sm"><span>05:51:46 AM</span> / <span>2.316 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=18</span></div>
+<h5 class="test-status text-pass">postCreateUserPojo</h5>
+<span class='badge badge-success'>04.01.2024 05:51:46</span>
+<span class='badge badge-danger'>04.01.2024 05:51:48</span>
+<span class='badge badge-default'>2.316 secs</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> POST</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:51:48 AM</td>
+        <td>
+          postCreateUserPojo passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="24">Response JSON</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:51:48 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-11'></div>
+ <script>
+  function jsonTreeCreate11() { 
+   document.getElementById('code-block-json-11').innerHTML = JSONTree.create({
+    "id": 6816135,
+    "name": "Elmo Zieme",
+    "email": "ipsd88@gmail.com",
+    "gender": "male",
+    "status": "active"
+}); 
+  }
+  jsonTreeCreate11();
+ </script>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author=""
+          tag="POST"
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">postCreateUserWithMap</p>
+            <p class="text-sm"><span>05:51:46 AM</span> / <span>2.016 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=19</span></div>
+<h5 class="test-status text-pass">postCreateUserWithMap</h5>
+<span class='badge badge-success'>04.01.2024 05:51:46</span>
+<span class='badge badge-danger'>04.01.2024 05:51:48</span>
+<span class='badge badge-default'>2.016 secs</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> POST</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:51:48 AM</td>
+        <td>
+          postCreateUserWithMap passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="26">Response JSON</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:51:48 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-13'></div>
+ <script>
+  function jsonTreeCreate13() { 
+   document.getElementById('code-block-json-13').innerHTML = JSONTree.create({
+    "id": 6816136,
+    "name": "Dr. Nedra Schaden",
+    "email": "yyqh37@gmail.com",
+    "gender": "male",
+    "status": "active"
+}); 
+  }
+  jsonTreeCreate13();
+ </script>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="20"
+          author=""
+          tag="POST"
+          device="">
+          <div class="status-avatar fail-bg">
+            <i class="fa fa-times text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">postCreateUserWithString</p>
+            <p class="text-sm"><span>05:51:46 AM</span> / <span>1.577 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=20</span></div>
+<h5 class="test-status text-fail">postCreateUserWithString</h5>
+<span class='badge badge-success'>04.01.2024 05:51:46</span>
+<span class='badge badge-danger'>04.01.2024 05:51:48</span>
+<span class='badge badge-default'>1.577 secs</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> POST</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:51:48 AM</td>
+        <td>
+          <span class='badge white-text red'>1 expectation failed.
+Expected status code <201> but was <422>.
+</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:51:48 AM</td>
+        <td>
+          <textarea readonly class="code-block">java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <422>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$8.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:101)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
+	at com.qa.tests.PostTests.postCreateUserWithString(PostTests.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</textarea>
+          
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="21"
+          author=""
+          tag="PUT"
+          device="">
+          <div class="status-avatar fail-bg">
+            <i class="fa fa-times text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">putUpdateUserPojo</p>
+            <p class="text-sm"><span>05:51:46 AM</span> / <span>1.877 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=21</span></div>
+<h5 class="test-status text-fail">putUpdateUserPojo</h5>
+<span class='badge badge-success'>04.01.2024 05:51:46</span>
+<span class='badge badge-danger'>04.01.2024 05:51:48</span>
+<span class='badge badge-default'>1.877 secs</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> PUT</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:51:48 AM</td>
+        <td>
+          <span class='badge white-text red'>1 expectation failed.
+Expected status code <200> but was <404>.
+</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:51:48 AM</td>
+        <td>
+          <textarea readonly class="code-block">java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$8.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:101)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
+	at com.qa.tests.PutTests.putUpdateUserPojo(PutTests.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</textarea>
+          
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="25">Response JSON</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:51:48 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-12'></div>
+ <script>
+  function jsonTreeCreate12() { 
+   document.getElementById('code-block-json-12').innerHTML = JSONTree.create({
+    "message": "Resource not found"
+}); 
+  }
+  jsonTreeCreate12();
+ </script>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left">
+<li>
+<a href="">
+<span class="font-size-14">Exception</span>
+</a>
+</li>
+</ul>
+<ul class="tools text-right">
+<li>
+<a href="#">
+<span class="badge badge-primary">1</span>
+</a>
+</li>
+</ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="open-test">
+<div class="test-detail">
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>05:51:41 AM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>getUser</a>
+</td>
+</tr>
+<tr>
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>05:51:41 AM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>deleteUser</a>
+</td>
+</tr>
+<tr>
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>05:51:41 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>getIndividualCommentsForUser</a>
+</td>
+</tr>
+<tr>
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>05:51:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>postCreateUserWithString</a>
+</td>
+</tr>
+<tr>
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>05:51:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>putUpdateUserPojo</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul>
+<li>
+<a class="back-to-test" href="javascript:void(0)">
+<i class="fa fa-arrow-left"></i>
+</a>
+</li>
+</ul>
+</div>
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Tags</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">4</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">GET</p>
+<p class="duration text-sm">6 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>GET</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>05:51:41 AM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>getUser</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>05:51:41 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>getIndividualCommentsForUser</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>05:51:41 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>getPostsWithBasePath</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>05:51:41 AM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>getComments</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>05:51:41 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>getPostsWithQueryParameter</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>05:51:45 AM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>getUsers</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">DELETE</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>DELETE</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>05:51:41 AM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>deleteUser</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">PUT</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>PUT</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>05:51:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>putUpdateUserPojo</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">POST</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>POST</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>05:51:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>postCreateUserWithString</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>05:51:45 AM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>postCreateUserJsonObject</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>05:51:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>postCreateUserPojo</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>05:51:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>postCreateUserWithMap</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul>
+<li>
+<a class="back-to-test" href="javascript:void(0)">
+<i class="fa fa-arrow-left"></i>
+</a>
+</li>
+</ul>
+</div>
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Apr 1, 2024 05:51:41 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Apr 1, 2024 05:51:50 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>7</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>5</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='58%'>
+<b>7</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='41%'><b>5</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>14</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='22%'><b>7</b> events passed</small></div>
+<div>
+<small data-tooltip='32%'><b>10</b> events failed,
+<b data-tooltip='%'>14</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>GET</td>
+<td>4</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>66.667%</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>POST</td>
+<td>3</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>75%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-md-4 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Author</td>
+<td>Thanan</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 7,
+failParent: 5,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 14,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 7,
+failEvents: 10,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 14
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@5cf22a596531402644b8523470526952516f345f/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

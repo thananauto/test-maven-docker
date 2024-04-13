@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-rest_assured_Practice_Suite">
+              <span class="suite-name border-failed">rest assured Practice Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-rest_assured_Practice_Suite">
+                    <span>C:\Projects\java_workspace\restassured\testNg.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-rest_assured_Practice_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-rest_assured_Practice_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-rest_assured_Practice_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-rest_assured_Practice_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-rest_assured_Practice_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-rest_assured_Practice_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 5 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-rest_assured_Practice_Suite" class="hide-methods failed suite-rest_assured_Practice_Suite"> (hide)</a> <!-- hide-methods failed suite-rest_assured_Practice_Suite -->
+                      <a href="#" panel-name="suite-rest_assured_Practice_Suite" class="show-methods failed suite-rest_assured_Practice_Suite"> (show)</a> <!-- show-methods failed suite-rest_assured_Practice_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-rest_assured_Practice_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-rest_assured_Practice_Suite" title="com.qa.tests.DeleteTests" hash-for-method="deleteUser">deleteUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-rest_assured_Practice_Suite" title="com.qa.tests.GetTests" hash-for-method="getIndividualCommentsForUser(public void com.qa.tests.GetTests.getIndividualCommentsForUser(java.lang.reflect.Method))">getIndividualCommentsForUser(public void com.qa.tests.GetTests.getIndividualCommentsForUser(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-rest_assured_Practice_Suite" title="com.qa.tests.GetTests" hash-for-method="getUser">getUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-rest_assured_Practice_Suite" title="com.qa.tests.PostTests" hash-for-method="postCreateUserWithString">postCreateUserWithString</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-rest_assured_Practice_Suite" title="com.qa.tests.PutTests" hash-for-method="putUpdateUserPojo">putUpdateUserPojo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-rest_assured_Practice_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-rest_assured_Practice_Suite" class="hide-methods passed suite-rest_assured_Practice_Suite"> (hide)</a> <!-- hide-methods passed suite-rest_assured_Practice_Suite -->
+                      <a href="#" panel-name="suite-rest_assured_Practice_Suite" class="show-methods passed suite-rest_assured_Practice_Suite"> (show)</a> <!-- show-methods passed suite-rest_assured_Practice_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-rest_assured_Practice_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-rest_assured_Practice_Suite" title="com.qa.tests.GetTests" hash-for-method="getComments">getComments</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-rest_assured_Practice_Suite" title="com.qa.tests.GetTests" hash-for-method="getPostsWithBasePath">getPostsWithBasePath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-rest_assured_Practice_Suite" title="com.qa.tests.GetTests" hash-for-method="getPostsWithQueryParameter">getPostsWithQueryParameter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-rest_assured_Practice_Suite" title="com.qa.tests.GetTests" hash-for-method="getUsers(public void com.qa.tests.GetTests.getUsers(java.lang.reflect.Method))">getUsers(public void com.qa.tests.GetTests.getUsers(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-rest_assured_Practice_Suite" title="com.qa.tests.PostTests" hash-for-method="postCreateUserJsonObject">postCreateUserJsonObject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-rest_assured_Practice_Suite" title="com.qa.tests.PostTests" hash-for-method="postCreateUserPojo">postCreateUserPojo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-rest_assured_Practice_Suite" title="com.qa.tests.PostTests" hash-for-method="postCreateUserWithMap">postCreateUserWithMap</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-rest_assured_Practice_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-rest_assured_Practice_Suite" class="panel rest_assured_Practice_Suite">
+          <div class="suite-rest_assured_Practice_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.tests.PutTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="putUpdateUserPojo">
+                  </a> <!-- putUpdateUserPojo -->
+                  <span class="method-name">putUpdateUserPojo</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$11.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:101)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
+	at com.qa.tests.PutTests.putUpdateUserPojo(PutTests.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-rest_assured_Practice_Suite-class-failed -->
+          <div class="suite-rest_assured_Practice_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.tests.GetTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getIndividualCommentsForUser(public void com.qa.tests.GetTests.getIndividualCommentsForUser(java.lang.reflect.Method))">
+                  </a> <!-- getIndividualCommentsForUser(public void com.qa.tests.GetTests.getIndividualCommentsForUser(java.lang.reflect.Method)) -->
+                  <span class="method-name">getIndividualCommentsForUser</span>
+                  <span class="parameters">(public void com.qa.tests.GetTests.getIndividualCommentsForUser(java.lang.reflect.Method))</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expecting actual not to be empty
+	at com.qa.tests.GetTests.getIndividualCommentsForUser(GetTests.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUser">
+                  </a> <!-- getUser -->
+                  <span class="method-name">getUser</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expecting
+  com.qa.pojo.User@72f62e7b
+to have a property or a field named &quot;id&quot; with value
+  &quot;3708305&quot;
+but value was:
+  &quot;3778659&quot;
+(static and synthetic fields are ignored)
+	at com.qa.tests.GetTests.getUser(GetTests.java:75)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-rest_assured_Practice_Suite-class-failed -->
+          <div class="suite-rest_assured_Practice_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.tests.DeleteTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteUser">
+                  </a> <!-- deleteUser -->
+                  <span class="method-name">deleteUser</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;404&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$11.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:101)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
+	at com.qa.tests.DeleteTests.deleteUser(DeleteTests.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-rest_assured_Practice_Suite-class-failed -->
+          <div class="suite-rest_assured_Practice_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.tests.PostTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="postCreateUserWithString">
+                  </a> <!-- postCreateUserWithString -->
+                  <span class="method-name">postCreateUserWithString</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;422&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$11.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:101)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
+	at com.qa.tests.PostTests.postCreateUserWithString(PostTests.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-rest_assured_Practice_Suite-class-failed -->
+          <div class="suite-rest_assured_Practice_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.tests.GetTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getComments">
+                  </a> <!-- getComments -->
+                  <span class="method-name">getComments</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPostsWithBasePath">
+                  </a> <!-- getPostsWithBasePath -->
+                  <span class="method-name">getPostsWithBasePath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPostsWithQueryParameter">
+                  </a> <!-- getPostsWithQueryParameter -->
+                  <span class="method-name">getPostsWithQueryParameter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUsers(public void com.qa.tests.GetTests.getUsers(java.lang.reflect.Method))">
+                  </a> <!-- getUsers(public void com.qa.tests.GetTests.getUsers(java.lang.reflect.Method)) -->
+                  <span class="method-name">getUsers</span>
+                  <span class="parameters">(public void com.qa.tests.GetTests.getUsers(java.lang.reflect.Method))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-rest_assured_Practice_Suite-class-passed -->
+          <div class="suite-rest_assured_Practice_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.tests.PostTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="postCreateUserJsonObject">
+                  </a> <!-- postCreateUserJsonObject -->
+                  <span class="method-name">postCreateUserJsonObject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postCreateUserPojo">
+                  </a> <!-- postCreateUserPojo -->
+                  <span class="method-name">postCreateUserPojo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postCreateUserWithMap">
+                  </a> <!-- postCreateUserWithMap -->
+                  <span class="method-name">postCreateUserWithMap</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-rest_assured_Practice_Suite-class-passed -->
+        </div> <!-- panel rest_assured_Practice_Suite -->
+        <div panel-name="test-xml-rest_assured_Practice_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Projects\java_workspace\restassured\testNg.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;6&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;rest assured Practice Suite&quot; parallel=&quot;methods&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.listners.ReportListner&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;6&quot; verbose=&quot;0&quot; name=&quot;Test Basics 1&quot; parallel=&quot;methods&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.qa.tests&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.tests.DeleteTests&quot;/&gt;
+      &lt;class name=&quot;com.qa.tests.GetTests&quot;/&gt;
+      &lt;class name=&quot;com.qa.tests.PostTests&quot;/&gt;
+      &lt;class name=&quot;com.qa.tests.PutTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test Basics 1 --&gt;
+&lt;/suite&gt; &lt;!-- rest assured Practice Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-rest_assured_Practice_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for rest assured Practice Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test Basics 1 (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-rest_assured_Practice_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for rest assured Practice Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-rest_assured_Practice_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for rest assured Practice Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_rest_assured_Practice_Suite');
+function tableData_rest_assured_Practice_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getPostsWithQueryParameter')
+data.setCell(0, 2, 'com.qa.tests.GetTests')
+data.setCell(0, 3, 5844);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getUser')
+data.setCell(1, 2, 'com.qa.tests.GetTests')
+data.setCell(1, 3, 5831);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getPostsWithBasePath')
+data.setCell(2, 2, 'com.qa.tests.GetTests')
+data.setCell(2, 3, 5827);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getComments')
+data.setCell(3, 2, 'com.qa.tests.GetTests')
+data.setCell(3, 3, 5824);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getIndividualCommentsForUser')
+data.setCell(4, 2, 'com.qa.tests.GetTests')
+data.setCell(4, 3, 5598);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'deleteUser')
+data.setCell(5, 2, 'com.qa.tests.DeleteTests')
+data.setCell(5, 3, 5526);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'postCreateUserJsonObject')
+data.setCell(6, 2, 'com.qa.tests.PostTests')
+data.setCell(6, 3, 2431);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'postCreateUserPojo')
+data.setCell(7, 2, 'com.qa.tests.PostTests')
+data.setCell(7, 3, 2400);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'postCreateUserWithMap')
+data.setCell(8, 2, 'com.qa.tests.PostTests')
+data.setCell(8, 3, 2289);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'putUpdateUserPojo')
+data.setCell(9, 2, 'com.qa.tests.PutTests')
+data.setCell(9, 3, 2259);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'getUsers')
+data.setCell(10, 2, 'com.qa.tests.GetTests')
+data.setCell(10, 3, 1854);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'postCreateUserWithString')
+data.setCell(11, 2, 'com.qa.tests.PostTests')
+data.setCell(11, 3, 1665);
+window.suiteTableData['rest_assured_Practice_Suite']= { tableData: data, tableDiv: 'times-div-rest_assured_Practice_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 47 seconds</span>
+              <div id="times-div-rest_assured_Practice_Suite">
+              </div> <!-- times-div-rest_assured_Practice_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-rest_assured_Practice_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for rest assured Practice Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-rest_assured_Practice_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.qa.tests.PutTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.qa.tests.GetTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.qa.tests.PostTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-rest_assured_Practice_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.DeleteTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUpSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.GetTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.GetTests.getIndividualCommentsForUser(java.lang.reflect.Method))</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.GetTests.getUser())</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.GetTests.getComments())</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.DeleteTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.DeleteTests.deleteUser())</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.GetTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.GetTests.getPostsWithBasePath())</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.GetTests.getPostsWithQueryParameter())</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getComments</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getUser</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getPostsWithQueryParameter</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getPostsWithBasePath</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getIndividualCommentsForUser(public void com.qa.tests.GetTests.getIndividualCommentsForUser(java.lang.reflect.Method))</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.DeleteTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteUser</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethods([TestResult name=deleteUser status=FAILURE method=DeleteTests.deleteUser()[pri:0, instance:com.qa.te...)</span>
+                <span class="method-start">5566 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.GetTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.GetTests.getUsers(java.lang.reflect.Method))</span>
+                <span class="method-start">5568 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getUsers(public void com.qa.tests.GetTests.getUsers(java.lang.reflect.Method))</span>
+                <span class="method-start">5569 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethods([TestResult name=getIndividualCommentsForUser status=FAILURE method=GetTests.getIndividualCommentsFo...)</span>
+                <span class="method-start">5627 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.PostTests.postCreateUserJsonObject())</span>
+                <span class="method-start">5627 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">postCreateUserJsonObject</span>
+                <span class="method-start">5627 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.GetTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethods([TestResult name=getComments status=SUCCESS method=GetTests.getComments()[pri:0, instance:com.qa.tes...)</span>
+                <span class="method-start">5853 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.PostTests.postCreateUserPojo())</span>
+                <span class="method-start">5854 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">postCreateUserPojo</span>
+                <span class="method-start">5854 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.GetTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethods([TestResult name=getPostsWithBasePath status=SUCCESS method=GetTests.getPostsWithBasePath()[pri:0, i...)</span>
+                <span class="method-start">5855 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.PostTests.postCreateUserWithMap())</span>
+                <span class="method-start">5855 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">postCreateUserWithMap</span>
+                <span class="method-start">5856 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.GetTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethods([TestResult name=getUser status=FAILURE method=GetTests.getUser()[pri:0, instance:com.qa.tests.GetTe...)</span>
+                <span class="method-start">5860 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.PostTests.postCreateUserWithString())</span>
+                <span class="method-start">5861 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">postCreateUserWithString</span>
+                <span class="method-start">5861 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.GetTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethods([TestResult name=getPostsWithQueryParameter status=SUCCESS method=GetTests.getPostsWithQueryParamete...)</span>
+                <span class="method-start">5872 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.PutTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.PutTests.putUpdateUserPojo())</span>
+                <span class="method-start">5873 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">putUpdateUserPojo</span>
+                <span class="method-start">5874 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.GetTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethods([TestResult name=getUsers status=SUCCESS method=GetTests.getUsers(java.lang.reflect.Method)[pri:0, i...)</span>
+                <span class="method-start">7423 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethods([TestResult name=postCreateUserWithString status=FAILURE method=PostTests.postCreateUserWithString()...)</span>
+                <span class="method-start">7527 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethods([TestResult name=postCreateUserJsonObject status=SUCCESS method=PostTests.postCreateUserJsonObject()...)</span>
+                <span class="method-start">8065 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.PutTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethods([TestResult name=putUpdateUserPojo status=FAILURE method=PutTests.putUpdateUserPojo()[pri:0, instanc...)</span>
+                <span class="method-start">8134 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethods([TestResult name=postCreateUserWithMap status=SUCCESS method=PostTests.postCreateUserWithMap()[pri:0...)</span>
+                <span class="method-start">8146 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethods([TestResult name=postCreateUserPojo status=SUCCESS method=PostTests.postCreateUserPojo()[pri:0, inst...)</span>
+                <span class="method-start">8254 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.DeleteTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownSuite</span>
+                <span class="method-start">8284 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
